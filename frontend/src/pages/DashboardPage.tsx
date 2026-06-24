@@ -1,0 +1,11 @@
+import DashboardLayout from "../layouts/DashboardLayout";
+
+export default function DashboardPage() {
+  return (
+    <DashboardLayout>
+      <h1 className="text-3xl font-bold">
+        Dashboard funcionando 🚀
+      </h1>
+    </DashboardLayout>
+  );
+}
